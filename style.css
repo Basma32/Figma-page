@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-family: poppins, sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 96%;
+}
+
+/* Header area start */
+
+.header-area{
+    background-color: #fff;
+}
+
+.header{ 
+    display: flex;
+    justify-content: space-between;
+    height: 133px;
+    align-items: center;
+}
+.header a{ 
+    text-decoration: none;
+    color: #000;
+
+}
+
+.header ul li{
+    display: inline-block;
+}
+.header ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #000;
+    font-weight: 800px;
+    font-size: 14px;
+}
+
+/* Header area end */
+
+/* welcome banner area start */
+
+.banner-area{
+    background: url(images/banner/welcome.png);
+    background-size: cover;
+    height: 683px;
+    position: relative;
+}
+
+.banner h1{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 20%;
+    padding: 5px 20px 5px 20px;
+    font-weight: 300px;
+}
+
+.banner p{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 20%;
+    padding: 5px 20px 5px 20px;
+    font-weight: 300px;
+}
+
+/* welcome banner area end  */
+
+/* Relationship area start */
+
+.relationship{
+    display: flex;
+    margin: 100px;
+    
+}
+.relationship h1{
+    margin-top: 50px;
+}
+.relationship p{
+    margin-right: 100px;
+}
+.relationship button{
+    background-color: #fff;
+    padding: 5PX 30PX 5PX 30PX;
+}
+
+/* Relationship area end */
+
+/* service arae start */
+
+.service-area{
+    background-image: url(images/banner/services.png);
+    height: 680px;
+    background-size: cover;
+    position: relative;
+
+}
+.service-area h1{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 10%;
+    padding: 5px 30px 5px 30px;
+    font-weight: 300;
+}
+.service-area p{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 10%;
+    padding: 5px 30px 5px 30px;
+    font-weight: 300;
+}
+
+/* service arae end  */
+
+/* text-area */
+
+.text-area{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.text-area h1{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.text-area ul{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.text-area h4{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+/* text-area */
+
+/* about banner area start  */
+
+.about-banner-area{
+    background-image: url(images/banner/about-me.png);
+    height: 683px;
+    background-size: cover;
+    position: relative;
+}
+
+.about-banner-area h1{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 5%;
+    padding: 10px 20px 10px 10px;
+    font-weight: 300;
+}
+
+.about-banner-area p{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 5%;
+    padding: 10px 20px 10px 10px;
+    font-weight: 300;
+}
+
+/* about banner area end */
+
+/* our team area start  */
+
+.our-team-area{
+    margin: 50px 0 50px 150px;
+}
+
+.convenient-area{
+    display: flex;
+    margin: 50px 0px 50px 170px;
+}
+
+.convenient-area button{
+    background-color: #fff;
+    border: 0 solid;
+    margin: 30px;
+
+    
+    font-weight: 800;
+}
+
+.convenient-area img{
+    margin-left: 30px;
+}
+
+/* our team area end  */
+
+/* social media area start  */
+
+.social-media-banner-area{
+    background-image: url(images/banner/social-media.png);
+    height: 683px;
+    background-size: cover;
+    position: relative;
+}
+.social-media-banner-area h1{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 5%;
+    padding: 5px 20px 5px 20px;
+    font-weight: 300;
+
+}
+.social-media-banner-area p{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 20%;
+    padding: 10px 20px 10px 20px;
+    font-weight: 300;
+}
+
+/* social media area end  */
